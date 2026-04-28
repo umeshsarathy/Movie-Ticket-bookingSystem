@@ -1,10 +1,10 @@
 public class Movie {
-    int movieId;
-    String title;
-    String genre;
-    String language;
-    double rating;
-    double duration;
+    private int movieId;
+    private String title;
+    private String genre;
+    private String language;
+    private double rating;
+    private double duration;
     Movie(int movieId,String title,String genre,String language,double rating,double duration){
 
         this.movieId = movieId;

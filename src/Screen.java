@@ -1,8 +1,8 @@
 public class Screen {
-    int screenId;
-    String name;
-    int totalSeats;
-    int SeatLayout[][];
+    private int screenId;
+    private String name;
+    private int totalSeats;
+    private int SeatLayout[][];
 
     public Screen(int screenId, String name, int totalSeats) {
         this.screenId = screenId;

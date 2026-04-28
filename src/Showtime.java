@@ -1,10 +1,10 @@
 public class Showtime {
-    int showtimeId;
-    int movieId;
-    int screenId;
-    int startTime;
-    int endTime;
-    int pricing;
+    private int showtimeId;
+    private int movieId;
+    private int screenId;
+    private int startTime;
+    private int endTime;
+    private int pricing;
 
     public Showtime(int showtimeId, int movieId, int screenId, int startTime, int endTime, int pricing) {
         this.showtimeId = showtimeId;
